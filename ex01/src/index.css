@@ -1,0 +1,88 @@
+.body{
+    margin: 0;
+    background-color: white;
+    counter-increment: inherit;
+
+}
+.h1 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 1cm;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 5.5cm);
+    grid-template-rows: repeat(4, 4.0cm);
+    margin-left: 7cm; 
+    background-image: linear-gradient(0, 0, 0, 0.5); 
+       
+}
+.modalcontent {
+    opacity: 0.5;
+    pointer-events: fill;
+    background: slategrey;
+}
+.title {
+    color: navy;
+    content: '';
+    width: 25px;
+    border-top: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15px; float: left;
+    font-size: small; 
+    text-align: center;
+    opacity: 0.5;
+    transition: 1s;  
+
+}
+.title1 {
+    color: navy;
+    content: '';
+    width: 25px;
+    font-size: small; 
+    text-align: center;
+    opacity: 0.5;
+    transition: 1s;     
+}
+.opis {
+    text-align: left;
+    text-justify: newspaper;
+    color: mediumblue;
+    font-size: 16;
+    margin: 0;
+}
+
+.container:nth-child(1) {
+grid-column: span 1;
+grid-row: span 1;
+float: left; 
+    
+}
+.container:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 1;
+    column-gap: 1;
+    row-gap: 0;
+}
+.container:nth-child(5) {
+    grid-column: 1;
+    grid-row: 2;
+}
+.container:nth-child(8) {
+    grid-column: 1;
+    grid-row: 3;
+}
+.container:nth-child(9) {
+    grid-column: 3;
+    grid-row: 3;
+    }
+.container:nth-child(10) {
+margin-top: 5.5cm;
+width: fit-content;
+        }
+.container {
+background: center;
+}
